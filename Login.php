@@ -7,7 +7,7 @@
 		  color: white;
 		  margin: 0;
 		  align-items: center;
-		  background-image: url(images/bgimage.jpeg);
+		  background-image: url(bgimage.jpeg);
 		  background-repeat: no-repeat;
 		  background-size: cover;
 		  display: flex;
