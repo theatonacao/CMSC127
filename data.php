@@ -129,22 +129,22 @@
 						<input type="text" name="rhouse" placeholder="House/Block/Lot No." style="margin-right: 0px;" >
 						<input type="text" name="rstreet" placeholder="Street"size=12 style="margin-right: 0px;">
 						<input type="text" name="rsubdivision" placeholder="Subdivision"size=16 style="margin-right: 0px;">
-						<input type="text" name="rbarangay" placeholder="Barangay"style="margin-right: 0px;" required="">
-						<input type="text" name="rcity" placeholder="City/Municipality"size="20"style="margin-right: 0px;" required="">
-						<input type="text" name="rprovince" placeholder="Province"size="20" style="margin-right: 0px;" required="">
-						Zip Code <input type="text" name="rzipcode"size=13 required=""><br>
+						<input type="text" name="rbarangay" placeholder="Barangay"style="margin-right: 0px;" >
+						<input type="text" name="rcity" placeholder="City/Municipality"size="20"style="margin-right: 0px;" >
+						<input type="text" name="rprovince" placeholder="Province"size="20" style="margin-right: 0px;">
+						Zip Code <input type="text" name="rzipcode"size=13 ><br>
 				 Permanent Address<br>
 						<input type="text" name="phouse" placeholder="House/Block/Lot No." style="margin-right: 0px;" >
 						<input type="text" name="pstreet" placeholder="Street"size=12 style="margin-right: 0px;">
 						<input type="text" name="psubdivision" placeholder="Subdivision"size=16 style="margin-right: 0px;">
-						<input type="text" name="pbarangay" placeholder="Barangay"style="margin-right: 0px;" required="">
-						<input type="text" name="pcity" placeholder="City/Municipality"size="20"style="margin-right: 0px;"required="">
-						<input type="text" name="pprovince" placeholder="Province"size="20" style="margin-right: 0px;"required="">
-						Zip Code <input type="text" name="pzipcode"size=13 required=""><br>
+						<input type="text" name="pbarangay" placeholder="Barangay"style="margin-right: 0px;">
+						<input type="text" name="pcity" placeholder="City/Municipality"size="20"style="margin-right: 0px;">
+						<input type="text" name="pprovince" placeholder="Province"size="20" style="margin-right: 0px;">
+						Zip Code <input type="text" name="pzipcode"size=13 ><br>
 
-				 Telephone No. <input type="text" name="telephone" size=35 required="">
-				 Mobile No. <input type="text" name="mobile" size=35 required="">
-				 E-mail Address <input type="text" name="email"size=30 required="">
+				 Telephone No. <input type="text" name="telephone" size=35>
+				 Mobile No. <input type="text" name="mobile" size=35 >
+				 E-mail Address <input type="text" name="email"size=30 >
 		
 		<h3> II. FAMILY BACKGROUND</h3>
 		 <label>Spouse's Name</label><br>
@@ -160,16 +160,16 @@
 
 
 		 <label>Father's Surname </label>	<br>
-		 	<input type="text" name="father_surname" placeholder="Surname " size="40" required="**"> 
-			<input type="text" name="father_first" placeholder="First Name" size="40" required=""> 
-			<input type="text" name="father_middle" placeholder="Middle Name"size="40" required="">
+		 	<input type="text" name="father_surname" placeholder="Surname " size="40" > 
+			<input type="text" name="father_first" placeholder="First Name" size="40" > 
+			<input type="text" name="father_middle" placeholder="Middle Name"size="40" >
 			<input type="text" name="father_nameext" placeholder="Jr./Sr."size="20" ><br>
 
 		<label>Mother's Maiden Name </label><br>
-			<input type="text" name="mother_maiden"  placeholder="Maiden Name "size="35" required="">
-			<input type="text" name="mother_surname"  placeholder="Surname "size="35"required="">
-			<input type="text" name="mother_first"  placeholder="First Name "size="35"required="">
-			<input type="text" name="mother_middle" placeholder="Middle Name "size="35"required="">
+			<input type="text" name="mother_maiden"  placeholder="Maiden Name "size="35" >
+			<input type="text" name="mother_surname"  placeholder="Surname "size="35">
+			<input type="text" name="mother_first"  placeholder="First Name "size="35">
+			<input type="text" name="mother_middle" placeholder="Middle Name "size="35">
 
 		<br>  Name of Children (Write full name and list all) <br>
 			1.<input type="text" name="child1"size="75"><input type="date" name="cbday1"><br>
