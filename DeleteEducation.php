@@ -1,10 +1,16 @@
 <html>
-<head>
-<title></title>
-<head>
-<body>
-<a href = "Education.php">Home</a>
-</body>
+	<head>
+		<title>Kasama</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>	
+
+		<div class="container">
+			
+			<a class=button href=main.html> Back to Home</a>
+
+
 <?php
 $servername = "localhost";
 $username = "root";
@@ -16,19 +22,26 @@ $id = $_POST["index"];
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("<h3>Connection failed: " . $conn->connect_error. "</h3>");
 } 
 
 // sql to delete a record
-$sql = "DELETE FROM education WHERE Lvl ='$id' ";
+$sql = "DELETE FROM datas WHERE gsis ='$id' ";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Record deleted successfully";
+	echo '<br>';
+    echo "<h3>Record deleted successfully</h3>";
 } else {
-    echo "Error deleting record: " . $conn->error;
+    echo "<h3>Error deleting record: " . $conn->error."</h3>";
 }
 
 
 $conn->close();
 ?>
+
+
+</div>
+	
+	</body>
+	
 </html>
