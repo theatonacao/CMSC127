@@ -81,3 +81,8 @@ create table datas (
 	Grad_yrgraduated varchar(30),
 	Grad_honorscholar varchar(30)
 );
+
+create table education(
+	EdID varchar(30),
+	Lvl varchar(30) primary key
+);
